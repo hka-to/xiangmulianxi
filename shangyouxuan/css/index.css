@@ -1,11 +1,26 @@
-#wrapper #header .headTop {
+#top #header .headTop {
   background: #eaeaea;
   height: 30px;
 }
-#wrapper #header .headTop .headTopMain {
+#top #header .headTop .headTopMain {
   width: 1200px;
   margin: 0 auto;
+  line-height: 30px;
 }
-#wrapper #header .headTop .headTopMain .left p a:first-child {
+#top #header .headTop .headTopMain::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#top #header .headTop .headTopMain .left h5 {
+  float: left;
+  margin-right: 5px;
+}
+#top #header .headTop .headTopMain .left p {
+  float: left;
+}
+#top #header .headTop .headTopMain .left p a:first-child {
   border-right: 1px solid #b3aeae;
+  margin-right: 0px;
+  padding-right: 5px;
 }

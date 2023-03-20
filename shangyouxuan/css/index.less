@@ -1,5 +1,6 @@
+@import 'mixins/clear.less';
 // 外层容器
-#wrapper{
+#top{
     //  头部
     #header{
         //  顶部
@@ -10,14 +11,20 @@
             .headTopMain{
                 width: 1200px;
                 margin: 0 auto;
+                line-height: 30px;
+                .clearfix();
                 //  左侧
                 .left{
-                    h5{}
-                    p{
+                    h5{
+                        float: left;
+                        margin-right: 5px;
+                    }
+                    p{  float: left;
                         a{
                             &:first-child{
                                 border-right: 1px solid #b3aeae;
-                                
+                                margin-right: 0px;
+                                padding-right: 5px;
                             }
                         }
                     }
