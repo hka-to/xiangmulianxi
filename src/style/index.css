@@ -1,0 +1,173 @@
+#top #header .headTop {
+  background: #eaeaea;
+  height: 30px;
+}
+#top #header .headTop .headTopMain {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+#top #header .headTop .headTopMain::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#top #header .headTop .headTopMain .left {
+  float: left;
+}
+#top #header .headTop .headTopMain .left h5 {
+  float: left;
+  margin-right: 5px;
+}
+#top #header .headTop .headTopMain .left p {
+  float: left;
+}
+#top #header .headTop .headTopMain .left p a:first-child {
+  border-right: 1px solid #b3aeae;
+  margin-right: 0px;
+  padding-right: 5px;
+}
+#top #header .headTop .headTopMain .right {
+  float: right;
+}
+#top #header .headTop .headTopMain .right nav {
+  font-size: 0px;
+}
+#top #header .headTop .headTopMain .right nav a {
+  margin-right: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  border-right: 1px solid #b3aeae;
+}
+#top #header .headTop .headTopMain .right nav a:last-child {
+  border: none;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+#top #header .headBottom .headBottomMain {
+  width: 1200px;
+  margin: 0 auto;
+}
+#top #header .headBottom .headBottomMain::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#top #header .headBottom .headBottomMain .logo {
+  float: left;
+}
+#top #header .headBottom .headBottomMain .logo a img {
+  width: 175px;
+  height: 56px;
+  margin: 25px 45px;
+}
+#top #header .headBottom .headBottomMain .search {
+  float: right;
+  margin-top: 35px;
+}
+#top #header .headBottom .headBottomMain .search input .search {
+  float: right;
+  margin-top: 35px;
+}
+#top #header .headBottom .headBottomMain .search input:first-child {
+  box-sizing: border-box;
+  width: 490px;
+  height: 32px;
+  padding: 0 4px;
+  border: 3px solid #001aff;
+  float: left;
+}
+#top #header .headBottom .headBottomMain .search input:last-child {
+  width: 68px;
+  height: 32px;
+  color: #fff;
+  background: #0026ff;
+  border: none;
+}
+#top #header .headBottom .headBottomMain .search input::-webkit-input-placeholder {
+  color: blue;
+}
+#top #navWrap {
+  border-bottom: 2px solid #0004ff;
+}
+#top #navWrap .navWrapMain {
+  width: 1200px;
+  margin: 0 auto;
+}
+#top #navWrap .navWrapMain::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#top #navWrap .navWrapMain a {
+  margin: 0 22px;
+  font-size: 16px;
+  color: #333;
+  float: left;
+  line-height: 50px;
+}
+#top #navWrap .navWrapMain a:first-child {
+  width: 210px;
+  height: 50px;
+  background: #00a2ff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+}
+#top #content .contentMain {
+  width: 1200px;
+  margin: 15px auto 0 auto;
+}
+#top #content .contentMain #navPath {
+  padding: 9px 15px 9px 0;
+  font-size: 0px;
+}
+#top #content .contentMain #navPath a {
+  font-size: 12px;
+}
+#top #content .contentMain #navPath i {
+  padding: 0 5px;
+  font-size: 12px;
+}
+#top #content .contentMain #center {
+  margin: 5px 0 15px;
+}
+#top #content .contentMain #center #left {
+  width: 400px;
+  float: left;
+}
+#top #content .contentMain #center #left #leftTop {
+  width: 400px;
+  position: relative;
+}
+#top #content .contentMain #center #left #leftTop #smallPic {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #dfdfdf;
+  position: relative;
+}
+#top #content .contentMain #center #left #leftTop #smallPic .mask {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#top #content .contentMain #center #left #leftTop #bigPic {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ddd;
+  left: 420px;
+  top: 0px;
+  position: absolute;
+  overflow: hidden;
+}
+#top #content .contentMain #center #left #leftTop #bigPic img {
+  width: 800px;
+  height: 800px;
+}
